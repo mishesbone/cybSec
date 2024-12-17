@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Cybersecurity Dashboard</h1>
+        <h3 class="mt-3">Detected Threats</h3>
+        <ul class="list-group">
+            {% for threat in threats %}
+            <li class="list-group-item">{{ threat[1] }} - {{ threat[2] }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
