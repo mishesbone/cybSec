@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS (Add to the <head> section of your HTML files) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap JS and Popper.js (Add to the bottom before closing </body> tag) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    <title>Add Incident</title>
+</head>
+<body>
+    <h1>Add New Incident</h1>
+    <form method="POST">
+        <label for="timestamp">Timestamp</label>
+        <input type="text" id="timestamp" name="timestamp" required><br>
+
+        <label for="threat_name">Threat Name</label>
+        <input type="text" id="threat_name" name="threat_name" required><br>
+
+        <label for="severity">Severity</label>
+        <input type="text" id="severity" name="severity" required><br>
+
+        <label for="description">Description</label>
+        <textarea id="description" name="description" required></textarea><br>
+
+        <input type="submit" value="Add Incident">
+    </form>
+</body>
+</html>
