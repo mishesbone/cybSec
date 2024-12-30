@@ -1,0 +1,28 @@
+/* custom.css */
+
+/* Adjust the navbar background color */
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #ffffff !important;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+/* Style the incident table */
+.table th, .table td {
+    text-align: center;
+}
+
+/* Alert styles */
+.alert {
+    margin-top: 20px;
+}
